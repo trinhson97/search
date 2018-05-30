@@ -1,0 +1,445 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E7F1FACB20B55748009D4A79 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7F1FACA20B55748009D4A79 /* AppDelegate.swift */; };
+		E7F1FAD020B55748009D4A79 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E7F1FACE20B55748009D4A79 /* Main.storyboard */; };
+		E7F1FAD220B55748009D4A79 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E7F1FAD120B55748009D4A79 /* Assets.xcassets */; };
+		E7F1FAD520B55748009D4A79 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E7F1FAD320B55748009D4A79 /* LaunchScreen.storyboard */; };
+		E7F1FAE020B55748009D4A79 /* SearkTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7F1FADF20B55748009D4A79 /* SearkTests.swift */; };
+		E7F1FAEB20B55FCA009D4A79 /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7F1FAEA20B55FCA009D4A79 /* TableViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E7F1FADC20B55748009D4A79 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E7F1FABF20B55748009D4A79 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E7F1FAC620B55748009D4A79;
+			remoteInfo = Seark;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		E7F1FAC720B55748009D4A79 /* Seark.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Seark.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E7F1FACA20B55748009D4A79 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		E7F1FACF20B55748009D4A79 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		E7F1FAD120B55748009D4A79 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E7F1FAD420B55748009D4A79 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		E7F1FAD620B55748009D4A79 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E7F1FADB20B55748009D4A79 /* SearkTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SearkTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E7F1FADF20B55748009D4A79 /* SearkTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearkTests.swift; sourceTree = "<group>"; };
+		E7F1FAE120B55748009D4A79 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E7F1FAEA20B55FCA009D4A79 /* TableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E7F1FAC420B55748009D4A79 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E7F1FAD820B55748009D4A79 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E7F1FABE20B55748009D4A79 = {
+			isa = PBXGroup;
+			children = (
+				E7F1FAC920B55748009D4A79 /* Seark */,
+				E7F1FADE20B55748009D4A79 /* SearkTests */,
+				E7F1FAC820B55748009D4A79 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E7F1FAC820B55748009D4A79 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E7F1FAC720B55748009D4A79 /* Seark.app */,
+				E7F1FADB20B55748009D4A79 /* SearkTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E7F1FAC920B55748009D4A79 /* Seark */ = {
+			isa = PBXGroup;
+			children = (
+				E7F1FACA20B55748009D4A79 /* AppDelegate.swift */,
+				E7F1FAEA20B55FCA009D4A79 /* TableViewController.swift */,
+				E7F1FACE20B55748009D4A79 /* Main.storyboard */,
+				E7F1FAD120B55748009D4A79 /* Assets.xcassets */,
+				E7F1FAD320B55748009D4A79 /* LaunchScreen.storyboard */,
+				E7F1FAD620B55748009D4A79 /* Info.plist */,
+			);
+			path = Seark;
+			sourceTree = "<group>";
+		};
+		E7F1FADE20B55748009D4A79 /* SearkTests */ = {
+			isa = PBXGroup;
+			children = (
+				E7F1FADF20B55748009D4A79 /* SearkTests.swift */,
+				E7F1FAE120B55748009D4A79 /* Info.plist */,
+			);
+			path = SearkTests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E7F1FAC620B55748009D4A79 /* Seark */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E7F1FAE420B55748009D4A79 /* Build configuration list for PBXNativeTarget "Seark" */;
+			buildPhases = (
+				E7F1FAC320B55748009D4A79 /* Sources */,
+				E7F1FAC420B55748009D4A79 /* Frameworks */,
+				E7F1FAC520B55748009D4A79 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Seark;
+			productName = Seark;
+			productReference = E7F1FAC720B55748009D4A79 /* Seark.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E7F1FADA20B55748009D4A79 /* SearkTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E7F1FAE720B55748009D4A79 /* Build configuration list for PBXNativeTarget "SearkTests" */;
+			buildPhases = (
+				E7F1FAD720B55748009D4A79 /* Sources */,
+				E7F1FAD820B55748009D4A79 /* Frameworks */,
+				E7F1FAD920B55748009D4A79 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E7F1FADD20B55748009D4A79 /* PBXTargetDependency */,
+			);
+			name = SearkTests;
+			productName = SearkTests;
+			productReference = E7F1FADB20B55748009D4A79 /* SearkTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E7F1FABF20B55748009D4A79 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = Son;
+				TargetAttributes = {
+					E7F1FAC620B55748009D4A79 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					E7F1FADA20B55748009D4A79 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = E7F1FAC620B55748009D4A79;
+					};
+				};
+			};
+			buildConfigurationList = E7F1FAC220B55748009D4A79 /* Build configuration list for PBXProject "Seark" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E7F1FABE20B55748009D4A79;
+			productRefGroup = E7F1FAC820B55748009D4A79 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E7F1FAC620B55748009D4A79 /* Seark */,
+				E7F1FADA20B55748009D4A79 /* SearkTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E7F1FAC520B55748009D4A79 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E7F1FAD520B55748009D4A79 /* LaunchScreen.storyboard in Resources */,
+				E7F1FAD220B55748009D4A79 /* Assets.xcassets in Resources */,
+				E7F1FAD020B55748009D4A79 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E7F1FAD920B55748009D4A79 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E7F1FAC320B55748009D4A79 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E7F1FACB20B55748009D4A79 /* AppDelegate.swift in Sources */,
+				E7F1FAEB20B55FCA009D4A79 /* TableViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E7F1FAD720B55748009D4A79 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E7F1FAE020B55748009D4A79 /* SearkTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E7F1FADD20B55748009D4A79 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E7F1FAC620B55748009D4A79 /* Seark */;
+			targetProxy = E7F1FADC20B55748009D4A79 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		E7F1FACE20B55748009D4A79 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E7F1FACF20B55748009D4A79 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		E7F1FAD320B55748009D4A79 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E7F1FAD420B55748009D4A79 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E7F1FAE220B55748009D4A79 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		E7F1FAE320B55748009D4A79 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E7F1FAE520B55748009D4A79 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Seark/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = zeref.Seark;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E7F1FAE620B55748009D4A79 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Seark/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = zeref.Seark;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		E7F1FAE820B55748009D4A79 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SearkTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = zeref.SearkTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Seark.app/Seark";
+			};
+			name = Debug;
+		};
+		E7F1FAE920B55748009D4A79 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SearkTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = zeref.SearkTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Seark.app/Seark";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E7F1FAC220B55748009D4A79 /* Build configuration list for PBXProject "Seark" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E7F1FAE220B55748009D4A79 /* Debug */,
+				E7F1FAE320B55748009D4A79 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E7F1FAE420B55748009D4A79 /* Build configuration list for PBXNativeTarget "Seark" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E7F1FAE520B55748009D4A79 /* Debug */,
+				E7F1FAE620B55748009D4A79 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E7F1FAE720B55748009D4A79 /* Build configuration list for PBXNativeTarget "SearkTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E7F1FAE820B55748009D4A79 /* Debug */,
+				E7F1FAE920B55748009D4A79 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E7F1FABF20B55748009D4A79 /* Project object */;
+}
